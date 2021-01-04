@@ -26,11 +26,11 @@ cd "<diretório raiz da aplicação>"
 ```
 ## Documentação
 Abra o navegador e digite:
-```shell
 http://localhost:8080/swagger-ui.html
-```
 
-##Cadastre um cliente
+
+## Cadastrar cliente
+```shell
 POST http://localhost:8080/cristal/v1/clientes : cria um cliente
 Corpo da Solicitação:
 {
@@ -43,3 +43,4 @@ Corpo da Solicitação:
 Retornar os seguintes códigos:
 201: se criado com sucesso e no payload(corpo da resposta) retorna as informações do cliente criado
 400: se a solicitação falhou na validação, informar no payload quais campos não estão validos
+```
